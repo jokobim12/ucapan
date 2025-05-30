@@ -1,0 +1,50 @@
+
+    .section {
+        display: none;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .active {
+        display: flex !important;
+    }
+
+    body {
+        margin: 0;
+        font-family: 'comic sans ms';
+        background-color: #cf586c;
+        color: #ffffff;
+    }
+
+    .section {
+        display: none;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+        background-color: transparent;
+    }
+
+    .section img{
+        width: 300px;
+        border-radius: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .active {
+        display: flex !important;
+    }
+
+    button {
+        font-weight: 500;
+    }
+
+    canvas {
+        background-color: #cf586c;
+        border-radius: 1rem;
+    }
+
