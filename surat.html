@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
         body {
@@ -81,7 +83,7 @@
 
         .text {
             position: absolute;
-            font-family: 'Comic Sans MS', sans-serif;
+            font-family: 'Patrick Hand', cursive;
             font-size: 28px;
             text-align: center;
             line-height: 30px;
@@ -269,6 +271,11 @@
 </head>
 
 <body>
+    <audio id="bgMusic" autoplay loop>
+        <source src="music/Bergema Sampai Selamanya - Nadhief Basalamah Piano Karaoke by Andre Panggabean.mp3"
+            type="audio/mp3">
+        Browsermu tidak mendukung audio.
+    </audio>
     <div class="container">
         <div class="valentines">
             <div class="envelope"></div>
@@ -279,7 +286,7 @@
         </div>
         <div class="shadow"></div>
     </div>
-    
+
 
     <script>
         $(document).ready(function () {

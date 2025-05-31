@@ -38,7 +38,7 @@ if (nama) {
   function showGambar1() {
     Swal.fire({
       title: 'ini caramu tidur',
-      imageUrl: '/img/turu1.png', // Ganti sesuai kebutuhan
+      imageUrl: 'img/turu1.png', // Ganti sesuai kebutuhan
       imageWidth: 300,
       imageAlt: 'Gambar lucu',
     });
@@ -47,8 +47,24 @@ if (nama) {
     function showGambar2() {
     Swal.fire({
       title: 'ini caramu tidur',
-      imageUrl: '/img/turu2.png', // Ganti sesuai kebutuhan
+      imageUrl: 'img/turu2.png', // Ganti sesuai kebutuhan
       imageWidth: 300,
       imageAlt: 'Gambar lucu',
     });
   }
+
+  // music
+    const bgMusic = document.getElementById('bgMusic');
+  const toggleBtn = document.getElementById('toggleMusic');
+  let isPlaying = false;
+
+  toggleBtn.addEventListener('click', function () {
+    if (!isPlaying) {
+      bgMusic.play();
+      toggleBtn.textContent = 'Pause Musik ⏸';
+    } else {
+      bgMusic.pause();
+      toggleBtn.textContent = 'Putar Musik ▶';
+    }
+    isPlaying = !isPlaying;
+  });
