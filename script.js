@@ -61,10 +61,10 @@ if (nama) {
   toggleBtn.addEventListener('click', function () {
     if (!isPlaying) {
       bgMusic.play();
-      toggleBtn.textContent = 'Pause Musik ⏸';
+      toggleBtn.textContent = 'Pause Musik  ';
     } else {
       bgMusic.pause();
-      toggleBtn.textContent = 'Putar Musik ▶';
+      toggleBtn.textContent = 'Putar Musik ';
     }
     isPlaying = !isPlaying;
   });
