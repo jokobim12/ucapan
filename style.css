@@ -14,8 +14,8 @@
 
     body {
         margin: 0;
-        font-family: 'comic sans ms', cursive;
-        background-image: linear-gradient(rgba(177, 50, 50, 0.63), rgba(204, 63, 63, 0.952)), url('../img/bg.png');
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        background-image: linear-gradient(rgba(156, 31, 31, 0.63), rgb(192, 28, 28)), url('');
         color: #ffffff;
     }
 

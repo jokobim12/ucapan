@@ -32,3 +32,23 @@ const nama = getQueryParam("nama");
 if (nama) {
   document.getElementById("namaTeman").textContent = `Haloo, ${nama}`;
 }
+
+
+// show gambar
+  function showGambar1() {
+    Swal.fire({
+      title: 'ini caramu tidur',
+      imageUrl: '/img/turu1.png', // Ganti sesuai kebutuhan
+      imageWidth: 300,
+      imageAlt: 'Gambar lucu',
+    });
+  }
+
+    function showGambar2() {
+    Swal.fire({
+      title: 'ini caramu tidur',
+      imageUrl: '/img/turu2.png', // Ganti sesuai kebutuhan
+      imageWidth: 300,
+      imageAlt: 'Gambar lucu',
+    });
+  }

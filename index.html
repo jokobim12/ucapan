@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ucapan Terima Kasih</title>
+    <link rel="icon" href="img/pp.jpeg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -22,22 +24,42 @@
 
     <div id="thanks" class="section text-white">
         <div>
-            <h2 class="mb-5">Heyy kamuuu 🫵</h2>
-            <p class="text-justify mb-5" style="text-align: justify;">Jangan nangis terus lahh... masa tiap malem nangis, nanti air matanya habis loo,
-                padahal kan bisa di bagi bagi ke aku jugaa 😭.
-                Kalo lagi sedih gara-gara keinget sesuatu, saranku mending turu aja sihh biar gak berlebihan mikirinnya 🙃. <br>
-                Padahal bisa nulis ginian lewat wa, tapi aku suka ngelakuin hal yang gak biasa,
-                pasti kamu belom pernah dapat ginian kann 😎
-                
-            </p>
+            <h2>Heyy kamuuu 🫵</h2>
+            <div class="bungkus bg bg-dark px-4 py-4 mb-4 mt-4 rounded-2">
+                <p style="text-align: justify;">Jangan nangis terus lahh... masa tiap malem nangis, nanti air matanya
+                    habis loo,
+                    padahal kan bisa di bagi bagi ke aku jugaa 😭.
+                    Kalo lagi sedih gara-gara keinget sesuatu, saranku mending turu aja sihh biar gak berlebihan
+                    mikirinnya 🙃. <br>
+                    Padahal bisa nulis ginian lewat wa, tapi aku suka ngelakuin hal yang gak biasa,
+                    pasti kamu belom pernah dapat ginian kann 😎
+
+                </p>
+            </div>
             <button class="btn btn-secondary me-2" onclick="prevSection()">Kembali</button>
             <button class="btn btn-warning" onclick="nextSection()">Lanjutkan</button>
         </div>
     </div>
 
+
+    <div id="tebak" class="section text-white">
+        <div class="text-center">
+            <h2 class="mb-5">pilih satuu...</h2>
+            <div class="pilihan bg bg-dark py-5 px-5 rounded">
+                <button class="btn btn-primary" onclick="showGambar1()">Klik aku!</button>
+                <button class="btn btn-success" onclick="showGambar2()">Klik aku!</button>
+            </div>
+
+            <div class="mt-5 d-flex justify-content-center gap-3">
+                <button class="btn btn-secondary" onclick="prevSection()">Kembali</button>
+                <button class="btn btn-warning" onclick="nextSection()">Lanjutkan</button>
+            </div>
+        </div>
+    </div>
+
     <div id="gif" class="section  text-white">
         <div>
-            <h2 class="mb-5">biar keinget dikitt</h2>
+            <h2 class="mb-5">guyonn jaaa</h2>
             <img src="img/kore.gif" alt="sticker lucu" class="img-fluid" />
             <div class="mt-4">
                 <button class="btn btn-secondary me-2" onclick="prevSection()">Kembali</button>
@@ -46,19 +68,19 @@
         </div>
     </div>
 
+
     <div id="flower" class="section text-white">
         <div>
-            <p style="font-size: 10px;">"pilih salah 1, soalnya nanti bakal ngulang lagi setelah dipilih"</p>
-            <h2>emmm, coba pilihhh</h2>
-            <div class="mt-4">
+            <h2>emmm, coba pilihhh lagi, serius kok iniii</h2>
+            <div class="mt-4 bg bg-dark py-3 rounded">
                 <a href="flower.html" class="btn btn-primary">rahasia</a>
                 <a href="surat.html" class="btn btn-warning">rahasia</a>
                 <a href="surat.html" class="btn btn-success">rahasia</a>
             </div>
             <img src="img/mikir.png" alt="" class="mt-5">
             <div class="kembali mt-3">
-            <button class="btn btn-secondary me-2" onclick="prevSection()">Kembali</button>
-            <button class="btn btn-warning" onclick="nextSection()">Lanjutkan</button>
+                <button class="btn btn-secondary me-2" onclick="prevSection()">Kembali</button>
+                <button class="btn btn-warning" onclick="nextSection()">Lanjutkan</button>
             </div>
         </div>
     </div>
@@ -67,9 +89,9 @@
         <div>
             <h2 class="mb-4">adakah kata kata buat aku?</h2>
             <img src="img/pose.png" alt="" style="width: 250px;" class="mt-3">
-            <button class="btn btn-success mt-3" onclick="kirimPesanWA()">Kirim Pesan</button>
             <div class="mt-4">
                 <button class="btn btn-secondary" onclick="prevSection()">Kembali</button>
+                <button class="btn btn-success" onclick="kirimPesanWA()">Kirim Pesan</button>
             </div>
         </div>
     </div>
