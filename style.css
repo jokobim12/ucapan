@@ -16,7 +16,7 @@
     body {
         margin: 0;
         font-family: 'Patrick Hand', cursive;
-        background-image: linear-gradient(rgba(156, 31, 31, 0.63), rgb(192, 28, 28)), url('img/bg2.png');
+        background-image: linear-gradient(rgba(173, 64, 64, 0.63), rgb(177, 45, 45)), url('img/bg2.png');
         background-size: cover;
         background-position: center;
         color: #ffffff;
