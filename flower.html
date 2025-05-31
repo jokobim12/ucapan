@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Glowing plant</title>
   <link rel="style.css" href="">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
 </head>
 
 <body class="not-loaded">
@@ -17,6 +19,7 @@
   </audio>
 
   <div class="night"></div>
+  <h1 class="neon-title">Erfa</h1>
   <div class="flowers">
     <div class="flower flower--1">
       <div class="flower__leafs flower__leafs--1">
@@ -337,6 +340,40 @@
       overflow: hidden;
       perspective: 1000px;
     }
+
+    .neon-title {
+  position: absolute;
+  top: 10vh;
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: transparent;
+  -webkit-text-stroke: 1px #00ffff;
+
+  text-shadow:
+    0 0 5px #00ffff,
+    0 0 10px #00ffff,
+    0 0 20px #00ffff,
+    0 0 40px #00ffff;
+
+  font-family: 'Patrick Hand', cursive;
+  opacity: 0;
+  animation: fadeNeon 2s ease-in-out forwards;
+}
+
+@keyframes fadeNeon {
+  0% {
+    opacity: 0;
+    transform: translateY(-2vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
     .night {
       position: fixed;

@@ -37,7 +37,7 @@ if (nama) {
 // show gambar
   function showGambar1() {
     Swal.fire({
-      title: 'ini caramu tidur',
+      title: 'kamu pas tidur',
       imageUrl: 'img/turu1.png', // Ganti sesuai kebutuhan
       imageWidth: 300,
       imageAlt: 'Gambar lucu',
@@ -46,7 +46,7 @@ if (nama) {
 
     function showGambar2() {
     Swal.fire({
-      title: 'ini caramu tidur',
+      title: 'kamu pas tidur',
       imageUrl: 'img/turu2.png', // Ganti sesuai kebutuhan
       imageWidth: 300,
       imageAlt: 'Gambar lucu',

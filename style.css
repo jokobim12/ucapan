@@ -6,6 +6,7 @@
         align-items: center;
         text-align: center;
         padding: 2rem;
+        margin-top: 0;
     }
 
     .active {
@@ -15,22 +16,14 @@
     body {
         margin: 0;
         font-family: 'Patrick Hand', cursive;
-        background-image: linear-gradient(rgba(156, 31, 31, 0.63), rgb(192, 28, 28)), url('');
+        background-image: linear-gradient(rgba(156, 31, 31, 0.63), rgb(192, 28, 28)), url('img/bg2.png');
+        background-size: cover;
+        background-position: center;
         color: #ffffff;
     }
 
-    .section {
-        display: none;
-        height: 100vh;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 2rem;
-        background-color: transparent;
-    }
-
     .section img{
-        width: 300px;
+        width: 250px;
         border-radius: 100%;
         margin-bottom: 2rem;
     }
